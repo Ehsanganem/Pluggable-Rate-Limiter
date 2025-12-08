@@ -1,0 +1,28 @@
+{
+  "name": "ratelimiterplug",
+  "version": "1.0.0",
+  "description": "this is a pluggable rate limiter for an express api that I built using nodejs typescript using express and the token bucket algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehsanganem/Pluggable-Rate-Limiter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ehsanganem/Pluggable-Rate-Limiter/issues"
+  },
+  "homepage": "https://github.com/Ehsanganem/Pluggable-Rate-Limiter#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
