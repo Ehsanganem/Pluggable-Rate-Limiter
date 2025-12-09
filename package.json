@@ -4,7 +4,8 @@
   "description": "this is a pluggable rate limiter for an express api that I built using nodejs typescript using express and the token bucket algorithm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node ./dist/index.js"
   },
   "repository": {
     "type": "git",
